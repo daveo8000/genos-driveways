@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Auto-scroll logic
-  let scrollStep = 1;
-  let scrollInterval = 30;
+  let scrollStep = 8;
+  let scrollInterval = 8 ;
   let isPaused = false;
 
   container.addEventListener("mouseenter", () => isPaused = true);

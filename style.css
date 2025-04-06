@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fff;
+  background-color: #ffffff1b;
   color: #333;
 }
 
@@ -12,6 +12,7 @@ header {
   text-align: center;
   padding: 40px 20px;
   position: relative;
+  border-radius: 30px;
 }
 
 header::after {
@@ -88,6 +89,7 @@ p {
 }
 
 .gallery {
+ 
   padding: 40px 20px;
   text-align: center;
 }
@@ -129,9 +131,10 @@ footer {
 
 /* New About Us Section */
 .about-us {
-  background: #f8f8f8;
+  background: lightgray;
   padding: 3rem 1rem;
   text-align: center;
+  border-radius: 40px;
 }
 
 .about-us h2 {
@@ -147,7 +150,7 @@ footer {
 
 /* New Testimonials Section */
 .testimonials {
-  background: #fff;
+  background: #ffffff18;
   padding: 3rem 1rem;
   text-align: center;
 }
@@ -221,9 +224,10 @@ footer {
 }
 /* Auto-scrolling Gallery */
 .auto-gallery {
+  background-color:#f4ca16;
   padding: 40px 20px;
-  background: #f8f8f8;
   text-align: center;
+  border-radius: 50px;
 }
 
 .auto-gallery h2 {
