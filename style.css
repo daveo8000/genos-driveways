@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  background: url('background/background.jpg') center/cover no-repeat;
+  background: url('background/background1.jpg') center/cover no-repeat;
   color: #fff;
   text-align: center;
   padding: 40px 20px;
@@ -54,6 +54,7 @@ header p,
   color: #ffc107;
   text-decoration: none;
   font-weight: bold;
+  
 }
 
 .nav-links {
@@ -76,6 +77,7 @@ header p,
   display: block;
   max-width: 300px;
   margin: 0 auto 1px;
+  border-radius: 200px;
 }
 
 h1 {

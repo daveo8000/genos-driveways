@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // Auto-scroll logic
-  let scrollStep = 8;
+  let scrollStep = 5;
   let scrollInterval = 8 ;
   let isPaused = false;
 
