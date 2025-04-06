@@ -233,7 +233,7 @@ footer {
 
 .scroll-container {
   display: flex;
-  overflow-x: auto;
+  overflow-x: hidden;
   white-space: nowrap;
   gap: 20px;
   scroll-behavior: smooth;
@@ -242,7 +242,7 @@ footer {
 
 .scroll-container img {
   width: 300px;
-  height: 300px;
+  height: auto;
   border-radius: 10px;
   flex-shrink: 0;
 }
