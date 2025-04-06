@@ -302,4 +302,14 @@ footer {
 .social-icons img.icon:hover {
   transform: scale(1.2);
 }
+.gallery-section{
+  border-radius: 50px;
+  
+  margin: 20pxpx;
+ 
+
+}
+.scroll-container{
+  padding: 20px;
+}
 
