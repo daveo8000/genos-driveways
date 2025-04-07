@@ -89,6 +89,37 @@ p {
   margin: 0;
   font-size: 1rem;
 }
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.phone-link {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* This ensures icon + text are centered inside */
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #ffc107;
+  padding: 0.6rem 1.2rem;
+  border-radius: 30px;
+  transition: background 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.phone-link:hover {
+  background-color: #0056b3;
+}
+
+.phone-link .icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 0.6rem;
+}
 
 .gallery {
  
@@ -122,6 +153,15 @@ p {
   font-size: 1.8rem;
   margin-bottom: 10px;
 }
+.logocontact{
+  display: block;
+  max-width: 200pxpx;
+  max-height: 200px;
+  margin: 0 auto 1px;
+  border-radius: 200px;
+}
+
+
 
 footer {
   background: #333;
