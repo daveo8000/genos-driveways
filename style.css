@@ -120,6 +120,12 @@ p {
   height: 28px;
   margin-right: 0.6rem;
 }
+.projects{
+  background-color: lightgrey;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
 
 .gallery {
  
