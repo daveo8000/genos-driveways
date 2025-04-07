@@ -30,4 +30,20 @@ document.addEventListener("DOMContentLoaded", function () {
  
 });
 
+function scrollGallery(button, amount) {
+  const container = button.parentElement.querySelector('.scroll-container');
+  container.scrollBy({
+    left: amount,
+    behavior: 'smooth'
+  });
+}
+
+window.scrollGallery = function(button, amount) {
+  const container = button.parentElement.querySelector('.scroll-container');
+  container.scrollBy({
+    left: amount,
+    behavior: 'smooth'
+  });
+};
+
 
