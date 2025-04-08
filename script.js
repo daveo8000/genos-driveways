@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Dynamically add images (e.g., img1.jpg to img20.jpg)
   for (let i = 1; i <= 20; i++) {
     const img = document.createElement("img");
-    img.src = `gallery/img${i}.jpg`;
+    img.src = `gallery/img${i}.webp`;
     img.alt = `Work ${i}`;
     container.appendChild(img);
   }
