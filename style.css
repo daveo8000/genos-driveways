@@ -187,6 +187,40 @@ p {
   border-radius: 200px;
 }
 
+.contact-form-section{
+  display: block;
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto 1px;
+  border-radius: 200px;
+  padding: 30px;
+
+}
+
+.follow {
+ background-color: #f4ca16;
+ padding: 20px;
+ border: 20px;
+ border-radius: 20px;
+}
+
+.contactform {
+  background-color: #ffc107;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.social-icons{
+  background-color: #ffc107;
+  border-radius: 20px;
+  
+}
+
+.social {
+  border-radius: 20px;
+  padding: 50px;
+}
+
 
 
 footer {
